@@ -57,7 +57,7 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-black opacity-30 absolute top-0 left-0 w-full h-full rounded-bl-4xl rounded-br-4xl" />
-        <div className="h-[400px] bg-gray-300 bg-[url('@/assets/avanza.jpeg')] bg-cover bg-center bg-no-repeat rounded-bl-4xl rounded-br-4xl" />
+        <div className="h-[400px] bg-gray-300 bg-[url('/avanza.jpeg')] bg-cover bg-center bg-no-repeat rounded-bl-4xl rounded-br-4xl" />
         <div className="absolute -bottom-10 shadow-2xl min-w-[400px]  px-14 py-5 left-1/2 transform -translate-x-1/2 bg-primary rounded-2xl h-[100px] z-10">
           <div className="flex items-center gap-5 mb-2">
             <div>
