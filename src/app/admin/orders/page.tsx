@@ -57,7 +57,7 @@ export default function Page() {
   })
 
   const { data: CarsData } = useApi<Cars[], Cars[]>({
-    url: '/cars' + filterParams.value,
+    url: '/cars',
     queryKey: ['cars-get'],
     enabled: !!params.car_id,
   })
@@ -76,7 +76,7 @@ export default function Page() {
         }
       })
     }
-  }, [route])
+  }, [route.query.car_id])
 
   const { data, isPending } = useApi<Orders[], AddColumn[]>({
     url: '/orders' + filterParams.value,
